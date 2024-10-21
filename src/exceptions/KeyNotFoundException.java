@@ -1,7 +1,7 @@
 package exceptions;
 
-public class KeyNotFoundException extends Exception {
-    public KeyNotFoundException(String message) {
+public class ExpressionException extends Exception {
+    public ExpressionException(String message) {
         super(message);
     }
 }

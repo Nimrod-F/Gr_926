@@ -25,4 +25,5 @@ public class IntValue implements IValue{
     public String toString(){
         return Integer.toString(number);
     }
+
 }

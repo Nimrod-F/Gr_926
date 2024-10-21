@@ -1,5 +1,6 @@
 package model.expressions;
 
+import model.adt.MyIDictionary;
 import model.state.PrgState;
 import model.value.IValue;
 
@@ -12,7 +13,7 @@ public class ValueExpression implements IExpression {
     }
 
     @Override
-    public IValue evaluate(PrgState state) {
+    public IValue evaluate(MyIDictionary<String, IValue> symTbl) {
         return this.value;
     }
 
